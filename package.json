@@ -1,0 +1,23 @@
+{
+  "name": "@jace1995/postgres-helpers",
+  "version": "0.1.60",
+  "main": "build/index.js",
+  "scripts": {
+    "single-test": "ts-node src/test/test.ts",
+    "tests": "mocha -r ts-node/register src/test/**/*.test.ts"
+  },
+  "dependencies": {
+    "@jace1995/load-config": "^0.1.2",
+    "@types/pg": "^7.14.5",
+    "pg": "^8.3.3",
+    "ts-enum-util": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
